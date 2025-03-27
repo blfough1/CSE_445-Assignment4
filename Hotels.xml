@@ -65,6 +65,7 @@
 	<Hotel Rating="4.4">
 		<Name>University Inn Tempe</Name>
 		<Phone>480-966-7221</Phone>
+		<Phone>877-504-2685</Phone>
 		<Address NearestAirport="Sky Harbor">
 			<Number>902</Number>
 			<Street>S Mill Ave</Street>
@@ -77,7 +78,7 @@
 	<Hotel Rating="4.5">
 		<Name>Omni Tempe Hotel at ASU</Name>
 		<Phone>602-794-8600</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address>
 			<Number>7</Number>
 			<Street>E University Dr</Street>
 			<City>Tempe</City>
@@ -86,7 +87,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating ="4.3">
+	<Hotel>
 		<Name>Canopy by Hilton Tempe Downtown</Name>
 		<Phone>480-968-6800</Phone>
 		<Address NearestAirport="Sky Harbor">
@@ -110,7 +111,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="3.5">
+	<Hotel>
 		<Name>Residence Inn Tempe Downtown/University</Name>
 		<Phone>480-967-2300</Phone>
 		<Address NearestAirport="Sky Harbor">
