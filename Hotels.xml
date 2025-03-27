@@ -17,7 +17,7 @@
 
 	<Hotel>
 		<Name>Moxy Phoenix Tempe</Name>
-		<Phone>+480-968-3451</Phone>
+		<Phone>480-968-3451</Phone>
 		<Address NearestAirport="Sky Harbor">
 			<Number>1333</Number>
 			<Street>S Rural Rd</Street>
