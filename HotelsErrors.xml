@@ -2,8 +2,10 @@
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
-	<Hotel>
+	<Hotel Rating="4.5">
 		<Name>The Global Ambassador</Name>
+		<Name>The Global Ambassador</Name>
+		<Phone>480-800-2211</Phone>
 		<Phone>480-800-2211</Phone>
 		<Address NearestAirport="Sky Harbor">
 			<Number>4360</Number>
@@ -14,8 +16,9 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="4.2">
+	<Hotel>
 		<Name>Moxy Phoenix Tempe</Name>
+		<Phone></Phone>
 		<Address NearestAirport="Sky Harbor">
 			<Number>1333</Number>
 			<Street>S Rural Rd</Street>
@@ -27,7 +30,6 @@
 
 	<Hotel Rating="3.8">
 		<Name>Hotel Tempest</Name>
-		<Name>Hotel Tempest Duplicate</Name>
 		<Phone>480-774-2500</Phone>
 		<Address NearestAirport="Sky Harbor">
 			<Number>1375</Number>
@@ -46,7 +48,78 @@
 			<Street>E Apache Blvd</Street>
 			<City>Tempe</City>
 			<State>AZ</State>
-			<Zip>85281</Zip>			
+			<Zip>85281</Zip>
 		</Hotel>
 
-</Hotel>
+	<Hotel>
+		<Name>Hyatt Place Tempe</Name>
+		<Phone>480-207-1578</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Street>6th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.4">
+		<Name>University Inn Tempe</Name>
+		<Phone>480-966-7221</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>902</Number>
+			<Street>S Mill Ave</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.5">
+		<Name>Omni Tempe Hotel at ASU</Name>
+		<Phone>602-794-8600</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>7</Number>
+			<Street>E University Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Canopy by Hilton Tempe Downtown</Name>
+		<Phone>480-968-6800</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>108</Number>
+			<Street>E University Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.3">
+		<Name>The Westin Tempes</Name>
+		<Phone>480-968-8885</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Residence Inn Tempe Downtown/University</Name>
+		<Phone>480-967-2300</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>510</Number>
+			<Street>S Forest Ave</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+</Hotels>
