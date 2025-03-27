@@ -3,15 +3,15 @@
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
 	<Hotel Rating="4.5">
-		<Name>The Global Ambassador</Name>
-		<Phone>480-800-2211</Phone>
-		<Phone>480-800-2212</Phone>
+		<Name>Westin</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
 		<Address NearestAirport="Sky Harbor">
-			<Number>4360</Number>
-			<Street>E Camelback Rd</Street>
+			<Number>11</Number>
+			<Street>E.7th St</Street>
 			<City>Phoenix</City>
 			<State>AZ</State>
-			<Zip>85018</Zip>
+			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
 
