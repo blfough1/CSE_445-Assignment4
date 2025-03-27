@@ -30,7 +30,7 @@
 	<Hotel Rating="3.8">
 		<Name>Hotel Tempest</Name>
 		<Phone>480-774-2500</Phone>
-		<Address>
+		<Address NearestAirport="Sky Harbor">
 			<Number>1375</Number>
 			<Street>E University Dr</Street>
 			<City>Tempe</City>
@@ -54,7 +54,7 @@
 	<Hotel>
 		<Name>Hyatt Place Tempe</Name>
 		<Phone>480-207-1578</Phone>
-		<Address>
+		<Address NearestAirport="Sky Harbor">
 			<Number>601</Number>
 			<Street>6th St</Street>
 			<City>Tempe</City>
@@ -78,7 +78,7 @@
 	<Hotel Rating="4.5">
 		<Name>Omni Tempe Hotel at ASU</Name>
 		<Phone>602-794-8600</Phone>
-		<Address>
+		<Address NearestAirport="Sky Harbor">
 			<Number>7</Number>
 			<Street>E University Dr</Street>
 			<City>Tempe</City>
@@ -90,7 +90,7 @@
 	<Hotel>
 		<Name>Canopy by Hilton Tempe Downtown</Name>
 		<Phone>480-968-6800</Phone>
-		<Address>
+		<Address NearestAirport="Sky Harbor">
 			<Number>108</Number>
 			<Street>E University Dr</Street>
 			<City>Tempe</City>
@@ -114,7 +114,7 @@
 	<Hotel>
 		<Name>Residence Inn Tempe Downtown/University</Name>
 		<Phone>480-967-2300</Phone>
-		<Address>
+		<Address NearestAirport="Sky Harbor">
 			<Number>510</Number>
 			<Street>S Forest Ave</Street>
 			<City>Tempe</City>
