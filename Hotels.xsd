@@ -18,11 +18,11 @@
 										<xs:element name="State" type="xs:string"/>
 										<xs:element name="Zip" type="xs:string"/>
 									</xs:sequence>
-									<xs:attribute name="NearestAirport" type="xs:string"/>
+									<xs:attribute name="_NearestAirport" type="xs:string"/>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
-						<xs:attribute name="Rating" type="xs:decimal" use="optional"/>
+						<xs:attribute name="_Rating" type="xs:decimal" use="optional"/>
 					</xs:complexType>
 				</xs:element>
 			</xs:sequence>
