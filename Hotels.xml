@@ -2,11 +2,10 @@
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
-	<!-- Has Rating + NearestAirport -->
 	<Hotel Rating="4.5">
 		<Name>The Global Ambassador</Name>
 		<Phone>480-800-2211</Phone>
-		<Phone>480-800-2212</Phone> <!-- Extra phone for test -->
+		<Phone>480-800-2211</Phone>
 		<Address NearestAirport="Sky Harbor">
 			<Number>4360</Number>
 			<Street>E Camelback Rd</Street>
@@ -16,7 +15,6 @@
 		</Address>
 	</Hotel>
 
-	<!-- No Rating -->
 	<Hotel>
 		<Name>Moxy Phoenix Tempe</Name>
 		<Phone>+480-968-3451</Phone>
@@ -29,7 +27,6 @@
 		</Address>
 	</Hotel>
 
-	<!-- No NearestAirport -->
 	<Hotel Rating="3.8">
 		<Name>Hotel Tempest</Name>
 		<Phone>480-774-2500</Phone>
@@ -42,7 +39,6 @@
 		</Address>
 	</Hotel>
 
-	<!-- Full -->
 	<Hotel Rating="4.2">
 		<Name>Graduate by Hilton Tempe</Name>
 		<Phone>480-967-9431</Phone>
@@ -55,7 +51,6 @@
 		</Address>
 	</Hotel>
 
-	<!-- No Rating + No Airport -->
 	<Hotel>
 		<Name>Hyatt Place Tempe</Name>
 		<Phone>480-207-1578</Phone>
