@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+	<!-- Error 1: Wrong root element -->
+
+	<!-- Hotel 1: Missing required attribute (Rating missing) -->
+	<Hotel>
+		<Name>The Global Ambassador</Name>
+		<Phone>480-800-2211</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>4360</Number>
+			<Street>E Camelback Rd</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85018</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Hotel 2: Missing <Phone> element -->
+	<Hotel Rating="4.2">
+		<Name>Moxy Phoenix Tempe</Name>
+		<!-- Phone element intentionally removed -->
+		<Address NearestAirport="Sky Harbor">
+			<Number>1333</Number>
+			<Street>S Rural Rd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Hotel 3: Duplicate <Name> elements -->
+	<Hotel Rating="3.8">
+		<Name>Hotel Tempest</Name>
+		<Name>Hotel Tempest Duplicate</Name>
+		<!-- Duplicate Name injected -->
+		<Phone>480-774-2500</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>1375</Number>
+			<Street>E University Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Hotel 4: Unclosed <Address> tag -->
+	<Hotel Rating="4.2">
+		<Name>Graduate by Hilton Tempe</Name>
+		<Phone>480-967-9431</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>225</Number>
+			<Street>E Apache Blvd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+			<!-- Missing closing </Address> tag -->
+		</Hotel>
+
+	<!-- Hotel 5: Remains valid -->
+	<Hotel Rating="4.2">
+		<Name>Hyatt Place Tempe</Name>
+		<Phone>480-207-1578</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>601</Number>
+			<Street>6th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+</Hotel>
